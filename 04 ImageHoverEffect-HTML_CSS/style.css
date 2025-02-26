@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body{
+    background-color:#41644A ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color:#F1F0E9 ;
+}
+.clip{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.clip1{
+  background:url(https://images.unsplash.com/photo-1720734020504-8b5557750735?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+  background-size:cover ;
+  background-position: center;
+  clip-path: polygon(0 0, 46% 0, 39% 100%, 0 100%);
+  
+}
+.clip2{
+  background:url(https://images.unsplash.com/photo-1739361133037-77be66a4ea6a?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+  background-size:cover ;
+  background-position: center;
+  clip-path: polygon(19% 0, 87% 0, 64% 100%, 33% 100%);
+}
+.clip3{
+  background:url(https://images.unsplash.com/photo-1739538475083-43bbf5c47646?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+  background-size:cover ;
+  background-position: center;
+  clip-path: polygon(82% 0, 100% 0, 100% 100%, 63% 100%);
+}
+
+.container:hover .clip{
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); 
+ 
+}
+.container .clip:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    
+  }
