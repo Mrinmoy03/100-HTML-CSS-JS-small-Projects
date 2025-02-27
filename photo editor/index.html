@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Editor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container disabled">
+      <h1>Photo Editor</h1>
+      <hr />
+      <div class="view_img">
+        <img src="assets/one (2).png" />
+      </div>
+      <div class="choose_img">
+        <button>Choose Image <img src="assets/images/upload.png"></button>
+        <input type="file" name="" id="" accept="image/*" hidden/>
+      </div>
+      <div class="slider">
+        <div class="filter_info">
+          <span class="name">Brightness</span>
+          <span class="value">100%</span>
+        </div>
+        <input type="range" max="200" min="0" />
+      </div>
+      <div class="icons_filter">
+        <p>Filters</p>
+        <div class="icons_room">
+            <button class="active"><img src="assets/images/brightnss.png" alt="" srcset=""></button>
+            <button><img src="assets/images/contrast.png" alt="" srcset=""></button>
+            <button><img src="assets/images/opactiy.png" alt="" srcset=""></button>
+            <button><img src="assets/images/invert.png" alt="" srcset=""></button>
+            <button><img src="assets/images/blur.png" alt="" srcset=""></button>
+        </div>
+      </div>
+      <div class="icons_filter">
+        <p>Rotate and Flip</p>
+        <div class="icons_room1">
+            <button><img src="assets/images/rotateleft.png" alt="" srcset=""></button>
+            <button><img src="assets/images/rotateright.png" alt="" srcset=""></button>
+            <button><img src="assets/images/flip.png" alt="" srcset=""></button>
+            <button><img src="assets/images/flip.png" alt="" srcset=""></button>
+           
+        </div>
+    </div>
+     <div class="btn-contain">
+        <button class="reset"> Reset Filter</button>
+        <button class="save"> Save Image</button>
+     </div>
+
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
