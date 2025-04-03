@@ -199,6 +199,61 @@
         "title": "40 Accordions",
         "description": "Accordions Effect  made with HTML and CSS Javascript",
         "link": "../40. Accordions/index.html"
+    },
+    {
+        "title": "41 Random Images Feed",
+        "description": "Random Images Feed Effect  made with HTML and CSS Javascript",
+        "link": "../41. Random Images Feed/index.html"
+    },
+    {
+        "title": "42 Random Quote",
+        "description": "Random Quote  made with HTML and CSS Javascript",
+        "link": "../42. Random Quote/index.html"
+    },
+    {
+        "title": "43 Email Validation",
+        "description": "Email Validation  made with HTML and CSS Javascript",
+        "link": "../43. Email Validation/index.html"
+    },
+    {
+        "title": "44 Interchangeable Background Color",
+        "description": "Interchangeable Background Color  made with HTML and CSS Javascript",
+        "link": "../44. Interchangeable Background Color/index.html"
+    },
+    {
+        "title": "45 Digital Clock",
+        "description": "Digital Clock  made with HTML and CSS Javascript",
+        "link": "../45. Digital Clock/index.html"
+    },
+    {
+        "title": "46 Browse File Upload",
+        "description": "Browse File Upload  made with HTML and CSS Javascript",
+        "link": "../46. Browse File Upload/index.html"
+    },
+    {
+        "title": "47 Sticky Navbar",
+        "description": "Sticky Navbar  made with HTML and CSS Javascript",
+        "link": "../47. Sticky Navbar/index.html"
+    },
+    {
+        "title": "48 Search and Highlight",
+        "description": "Search and Highlight  made with HTML and CSS Javascript",
+        "link": "../48. Search and Highlight/index.html"
+    },
+    {
+        "title": "49 Custom Range Slider",
+        "description": "Custom Range Slider  made with HTML and CSS Javascript",
+        "link": "../49. Custom Range Slider/index.html"
+    },
+    {
+        "title": "50 Feedback",
+        "description": "Feedback  made with HTML and CSS Javascript",
+        "link": "../50. Feedback/index.html"
+    },
+    {
+        "title": "51 Eye Follow",
+        "description": "Eye Follow  made with HTML and CSS Javascript",
+        "link": "../51. Eye Follow/index.html"
     }
     
 ]
